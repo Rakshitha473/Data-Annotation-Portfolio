@@ -1,0 +1,12 @@
+<View>
+
+<Text name="comment" value="$text"/>
+
+<Choices name="toxicity" toName="comment" choice="single">
+
+<Choice value="Toxic"/>
+<Choice value="Non-Toxic"/>
+
+</Choices>
+
+</View>
