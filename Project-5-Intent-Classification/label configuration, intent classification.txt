@@ -1,0 +1,18 @@
+<View>
+
+  <Text name="query" value="$text"/>
+
+  <Choices name="intent" toName="query" choice="single">
+
+    <Choice value="Book Flight"/>
+    <Choice value="Cancel Booking"/>
+    <Choice value="Track Order"/>
+    <Choice value="Return Product"/>
+    <Choice value="Account Support"/>
+    <Choice value="Payment Issue"/>
+    <Choice value="Technical Support"/>
+    <Choice value="General Inquiry"/>
+
+  </Choices>
+
+</View>
