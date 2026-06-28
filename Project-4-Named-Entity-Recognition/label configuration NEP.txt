@@ -1,0 +1,14 @@
+<View>
+  <Labels name="label" toName="text">
+    <Label value="Person" background="#FF6B6B"/>
+    <Label value="Organization" background="#4ECDC4"/>
+    <Label value="Location" background="#45B7D1"/>
+    <Label value="Date" background="#F7B731"/>
+    <Label value="Time" background="#9B59B6"/>
+    <Label value="Money" background="#2ECC71"/>
+    <Label value="Email" background="#E67E22"/>
+    <Label value="Phone Number" background="#95A5A6"/>
+  </Labels>
+
+  <Text name="text" value="$text"/>
+</View>
