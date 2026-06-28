@@ -1,0 +1,18 @@
+<View>
+  <Text name="review" value="$text"/>
+
+  <Choices name="sentiment" toName="review" choice="single">
+    <Choice value="Positive"/>
+    <Choice value="Neutral"/>
+    <Choice value="Negative"/>
+  </Choices>
+
+  <Choices name="category" toName="review" choice="multiple">
+    <Choice value="Product Quality"/>
+    <Choice value="Delivery"/>
+    <Choice value="Customer Service"/>
+    <Choice value="Pricing"/>
+    <Choice value="Packaging"/>
+    <Choice value="Other"/>
+  </Choices>
+</View>
