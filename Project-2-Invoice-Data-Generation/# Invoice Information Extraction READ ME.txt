@@ -1,0 +1,76 @@
+# Invoice Information Extraction Annotation Project
+
+## Objective
+Annotate invoice-related text by identifying and labeling important invoice entities for Named Entity Recognition (NER).
+
+## Labels Used
+
+### Invoice Entities
+- Invoice Number
+- Invoice Date
+- Due Date
+- Vendor
+- Customer
+- Amount
+- Currency
+- Tax
+- GST
+- Discount
+- Purchase Order
+- Order Number
+- Payment Reference
+- Payment Method
+- Bank Name
+- Outstanding Balance
+- Payment Status
+- Customer ID
+- GSTIN
+- Delivery Note
+- Subtotal
+- Shipping Charges
+- Freight Charges
+- Handling Charges
+- TDS
+- Cheque Number
+- UTR Number
+- Transaction ID
+
+## Dataset
+50 synthetic invoice-related sentences covering:
+- Invoice creation
+- Invoice payments
+- Vendor and customer details
+- Invoice and due dates
+- Purchase orders
+- Order numbers
+- Payment methods (UPI, NEFT, RTGS, Bank Transfer)
+- Payment references
+- Bank names
+- Invoice amounts
+- Multiple currencies (INR, USD, EUR, GBP)
+- Discounts
+- Taxes and GST
+- Shipping, freight, and handling charges
+- Outstanding balances
+- Payment status
+- Customer IDs
+- GSTIN numbers
+- Delivery notes
+- UTR numbers
+- Cheque numbers
+- Transaction IDs
+
+## Tool Used
+- Label Studio 1.23.0
+
+## Skills Demonstrated
+- Named Entity Recognition (NER)
+- Invoice Information Extraction
+- Intelligent Document Processing (IDP)
+- Data Annotation
+- Financial Document Annotation
+- Dataset Creation
+- Label Studio
+- JSON Dataset Preparation
+- AI Training Data Preparation
+- Quality Assurance for Annotation

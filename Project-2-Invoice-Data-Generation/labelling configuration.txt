@@ -1,0 +1,36 @@
+<View>
+
+  <Labels name="label" toName="text">
+    <Label value="Invoice Number" background="#FF6B6B"/>
+    <Label value="Invoice Date" background="#4ECDC4"/>
+    <Label value="Due Date" background="#45B7D1"/>
+    <Label value="Vendor" background="#F7DC6F"/>
+    <Label value="Customer" background="#A569BD"/>
+    <Label value="Amount" background="#58D68D"/>
+    <Label value="Currency" background="#F39C12"/>
+    <Label value="Tax" background="#E74C3C"/>
+    <Label value="GST" background="#16A085"/>
+    <Label value="Discount" background="#3498DB"/>
+    <Label value="Purchase Order" background="#9B59B6"/>
+    <Label value="Order Number" background="#5D6D7E"/>
+    <Label value="Payment Reference" background="#1ABC9C"/>
+    <Label value="Payment Method" background="#E67E22"/>
+    <Label value="Bank Name" background="#27AE60"/>
+    <Label value="Outstanding Balance" background="#C0392B"/>
+    <Label value="Payment Status" background="#8E44AD"/>
+    <Label value="Customer ID" background="#2ECC71"/>
+    <Label value="GSTIN" background="#34495E"/>
+    <Label value="Delivery Note" background="#D35400"/>
+    <Label value="Subtotal" background="#7F8C8D"/>
+    <Label value="Shipping Charges" background="#2980B9"/>
+    <Label value="Freight Charges" background="#E91E63"/>
+    <Label value="Handling Charges" background="#009688"/>
+    <Label value="TDS" background="#795548"/>
+    <Label value="Cheque Number" background="#607D8B"/>
+    <Label value="UTR Number" background="#FF9800"/>
+    <Label value="Transaction ID" background="#3F51B5"/>
+  </Labels>
+
+  <Text name="text" value="$text"/>
+
+</View>
